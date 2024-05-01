@@ -1,9 +1,32 @@
 h1 {background-color: blue; 
     color: aliceblue;
     text-align: center;
+    margin: 0px;
+    padding: 20px 0px 0px 0px ;
+    top: 0;
+    
 }
 
 ul {
     list-style: none;
-    margin: 0;
+    margin: 0px ;
+    padding: 0px ;
+    overflow: hidden;
+    background-color: green;
+    
+
 }
+ li {
+    float: left;
+ }
+ li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+ }
+ li a:hover {
+    background-color: rgb(93, 107, 13);
+    color: white;
+ }
